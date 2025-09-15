@@ -1,6 +1,21 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 576px) and (max-width: 767px) { 
-    /* CELULAR */
-    
+@media screen and (min-width: 767px) { 
+    /* TABLET, DESKTOP, TV */
+
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        width: 700px;
+    }
 }
